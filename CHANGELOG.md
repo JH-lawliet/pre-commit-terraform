@@ -2,6 +2,28 @@
 
 All notable changes to this project will be documented in this file.
 
+## [1.109.4](https://github.com/antonbabenko/pre-commit-terraform/compare/v1.109.3...v1.109.4) (2026-10-30)
+
+
+### Bug Fixes
+
+* **`terraform_providers_lock`:** Make hook in legacy mode work in Git worktrees ([#1035](https://github.com/antonbabenko/pre-commit-terraform/issues/1035)) ([fb0b593](https://github.com/antonbabenko/pre-commit-terraform/commit/fb0b5936c8846e037b57a72ca6a060ca41f2f8a3))
+
+## [1.109.3](https://github.com/antonbabenko/pre-commit-terraform/compare/v1.109.2...v1.109.3) (2026-10-20)
+
+
+### Bug Fixes
+
+* **`docker`:** Pin `virtualenv` to fix `checkov` build (broken since 2026-10-09) ([#1033](https://github.com/antonbabenko/pre-commit-terraform/issues/1033)) ([f6ba5a4](https://github.com/antonbabenko/pre-commit-terraform/commit/f6ba5a4e93bf2f964d233ba536f8b22c03986ca0))
+* **`trivy`:** Correct macOS asset name in installer script ([#1032](https://github.com/antonbabenko/pre-commit-terraform/issues/1032)) ([35dbca6](https://github.com/antonbabenko/pre-commit-terraform/commit/35dbca60e60cdf5e73a9646019f65b6e45c120b9))
+
+## [1.109.2](https://github.com/antonbabenko/pre-commit-terraform/compare/v1.109.1...v1.109.2) (2026-09-30)
+
+
+### Bug Fixes
+
+* **`terraform_trivy`:** Add support for running hook in git worktree ([#1028](https://github.com/antonbabenko/pre-commit-terraform/issues/1028)) ([fb34283](https://github.com/antonbabenko/pre-commit-terraform/commit/fb3428345fca90aa061d5451e5994b7fb8a7be17))
+
 ## [1.109.1](https://github.com/antonbabenko/pre-commit-terraform/compare/v1.109.0...v1.109.1) (2026-09-04)
 
 
